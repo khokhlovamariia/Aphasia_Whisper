@@ -1,0 +1,16 @@
+# Comparison Table – Video 3
+
+| Timestamp               | Manual transcription                                   | Whisper transcription                     | Correct/Error type                     | Notes                                                       |
+|------------------------|--------------------------------------------------------|--------------------------------------------|----------------------------------------|-------------------------------------------------------------|
+| [00:06.000 --> 00:17.000] | Um a phonin, pho a ha ha um a friends yes or yeah      | A phoning or a friend, yes.                | Fluency Smoothing + Omission           | Filler words and repetition removed; utterance restructured. |
+| [00:25.000 --> 00:26.000] | Yeah                                                  |                                            | Omission                               | Whisper missed this entirely.                               |
+| [00:31.000 --> 00:32.000] | No                                                    | No.                                        | Correct                                 |                                                             |
+| [00:35.000 --> 00:47.000] | He head, right here, I can't words are coming out um tricky yeah | Head. Right here. Words are coming out. Tricky. | Omission + Fluency Smoothing           | Removed filler and "I can't"; preserved main meaning.       |
+| [00:53.000 --> 00:56.000] | Yeah… yeah…. yeah…                                   |                                            | Omission                               |                                                             |
+| [01:08.000 --> 01:09.000] | Yeah                                                  |                                            | Omission                               |                                                             |
+| [01:12.000 --> 01:21.000] | Uh uh writing um here reading nah                    | Writing. Here. Reading. No.                | Partially correct. Fluency Smoothing + Substitution | Fillers removed; "nah" replaced with "no".                 |
+| [01:24.000 --> 01:25.000] | Nah so                                               |                                            | Omission                               |                                                             |
+| [01:26.000 --> 01:27.000] | Yeah                                                  |                                            | Omission                               |                                                             |
+| [01:32.000 --> 01:33.000] | Yeah                                                  |                                            | Omission                               |                                                             |
+| [01:47.000 --> 01:48.000] | Oh yeah                                               |                                            | Omission                               |                                                             |
+| [01:53.000 --> 01:54.000] | Yeah                                                  |                                            | Omission                               |                                                             |

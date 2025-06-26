@@ -29,12 +29,12 @@
 - Duration: 1:29
 - Description: Jan tells about her new t-shirt, she struggles with word finding, has difficulty saying numbers and often picks a word close by meaning but not quite right.
 - Tags: female, severe
-- 
+
 7. **Video 7 - [Jan - Depression](https://youtu.be/wrSyICY7jJ4?si=Hl1v5g7FZFE-mx01)**
 - Duration: 1:58
 - Description: Jan tells how she felt after stroke and highlights the importance of accessible information about aphasia to make sense of what had happened and what the future could look like.
 - Tags: female, severe
-- 
+
 8. **Video 8 - [Jan - Acceptance](https://youtu.be/jQLP1GJN9LI?si=nyv5Dp-Fj_P3Kf9E)**
 - Duration: 2:21
 - Description: Jan describes how she accepted stroke and aphasia.

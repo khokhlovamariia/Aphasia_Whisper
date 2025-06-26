@@ -1,0 +1,31 @@
+# Comparison Table – Video 9
+| Timestamp              | Manual transcription                             | Whisper transcription                           | Correct/Error type              | Notes                                           |
+|------------------------|--------------------------------------------------|--------------------------------------------------|----------------------------------|-------------------------------------------------|
+| [01:17.000 --> 01:19.000] | Um well, the girl.                               | Well, the girl.                                  | Omission (Filler)                |                                                 |
+| [01:27.000 --> 01:29.000] | And um she’s… she’s reaching um                  | She's reaching.                                  | Omission (Filler + Repetition)   |                                                 |
+| [01:29.000 --> 01:31.000] | Reach cat.                                      | Reach cat.                                       | Correct                          |                                                 |
+| [01:33.000 --> 01:37.000] | And the man is up in tree… um                   | And the man is up in the tree.                   | Omission (Filler)                |                                                 |
+| [01:41.000 --> 01:43.000] | Dog                                             | Dog                                              | Correct                          |                                                 |
+| [01:44.000 --> 01:46.000] | Uh Bark.                                       | Bark.                                            | Omission (Filler)                |                                                 |
+| [01:49.000 --> 01:51.000] | Um truck and policeman.                         | Truck and policeman.                             | Omission (Filler)                |                                                 |
+| [01:53.000 --> 01:55.000] | Um... no, not policeman… um                     | No, not policeman.                               | Omission (Filler)                |                                                 |
+| [01:58.000 --> 02:00.000] | Truck and fireman.                              | Truck and fireman.                               | Correct                          |                                                 |
+| [02:00.000 --> 02:02.000] | Fireman in the truck.                           | Fireman in the truck.                            | Correct                          |                                                 |
+| [02:04.000 --> 02:07.000] | And… Cat in the tree.                           | Cat in the tree.                                 | Omission                         | "And" skipped — slight change, not important.   |
+| [02:07.000 --> 02:12.000] | And… guy in the tree.                           | And guy in the tree.                             | Correct                          |                                                 |
+| [02:16.000 --> 02:20.000] | And bicycle.                                    | And bicycle.                                     | Correct                          |                                                 |
+| [02:20.000 --> 02:22.000] | Maybe, I don't know.                            | Maybe, I don't know.                             | Correct                          |                                                 |
+| [02:22.000 --> 02:24.000] | Her bicycle.                                    | Her bicycle.                                     | Correct                          |                                                 |
+| [02:26.000 --> 02:28.000] | Thank you.                                      | Thank you.                                       | Correct                          |                                                 |
+| [04:18.000 --> 04:20.000] | Evanston, Wyoming.                              | Evanston, Wyoming.                               | Correct                          |                                                 |
+| [04:24.000 --> 04:33.000] | Uh you know uh read and um go outside, fish.    | You know, read and go outside, fish.             | Omission (Fillers)               | Removed all fillers “uh” and “um.”              |
+| [04:37.000 --> 04:39.000] | Yeah.                                           | Yeah.                                            | Correct                          |                                                 |
+| [04:39.000 --> 04:44.000] | My husband and we have four kids.               | My husband and we have four kids.                | Correct                          |                                                 |
+| [04:44.000 --> 04:53.000] | Two… yeah… two daughters and two…               | Two daughters and two…                           | Repetition Skipping + Filler Omission | Whisper smoothed phrasing.                |
+| [04:54.000 --> 04:57.000] | Um… two daughters and two…                      | Two daughters and two…                           | Omission (Filler)                | Whisper skipped “Um.”                          |
+| [05:01.000 --> 05:04.000] | Okay, two daughters and two…                    | Okay, two daughters and two…                     | Correct                          |                                                 |
+| [05:06.000 --> 05:07.000] | Yeah.                                           | Yeah.                                            | Correct                          |                                                 |
+| [05:09.000 --> 05:10.000] | Sons.                                          | Sons.                                            | Correct                          |                                                 |
+| [05:11.000 --> 05:12.000] | Sons.                                          | Sons.                                            | Correct                          |                                                 |
+
+**Conclusion:** the main errors are removing fillers and repetition skipping, otherwise it preserves semantic content.

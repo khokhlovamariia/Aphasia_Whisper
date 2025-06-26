@@ -7,3 +7,8 @@ This project investigates the accuracy of OpenAI's Whisper speech-to-text model 
 - Manually transcribe the same speech records for comparison
 - Identify typical errors Whisper makes with aphasic speech
 - Evaluate Whisper's performance using multiple comparison metrics
+
+## Video selection
+**13** openly available videos were used for analysis with the **total duration of 43 minutes**. The samples vary by speaker gender and aphasia severity (mild, moderate, severe), and include both real stroke survivors and educational simulations. Details for each sample can be found [here](data/selected_videos/selected_videos.md).
+
+## Manual analysis of transcriptions

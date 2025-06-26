@@ -14,3 +14,5 @@
 | [01:32.000 --> 01:33.000] | Yeah                                                  |                                            | Omission                               |                                                             |
 | [01:47.000 --> 01:48.000] | Oh yeah                                               |                                            | Omission                               |                                                             |
 | [01:53.000 --> 01:54.000] | Yeah                                                  |                                            | Omission                               |                                                             |
+
+**Conclusion:** Whisper often drops words, which it sees as not important like "yeah", "nah" etc. Disfluent or broken phrases are reorganized into fluent sentences, which removes the signs of expressive difficulty.

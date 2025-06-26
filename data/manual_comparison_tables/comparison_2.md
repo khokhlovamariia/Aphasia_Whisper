@@ -25,3 +25,5 @@
 | [01:44.000 --> 01:48.000] | Um, sh, uh, yes                     | Jeter...                                   | Hallucination         | Whisper interpreted sound as a name.                        |
 | [01:48.000 --> 01:52.000] | Yes                                 | Yes                                        | Correct               |                                                              |
 | [01:56.000 --> 02:00.000] | Thank you                           | Thank you                                  | Correct               |                                                              |
+
+**Conclusion:** when dealing with severe aphasia, Whisper struggles significantly. It tries to reconstruct the meaning of the phrases which are inaudible, what leads to hallucinations, for example, "My name is George Timbers", "I am bad". So, Whisper tries to make the speech more meaningful than it is,  and it is misleading.

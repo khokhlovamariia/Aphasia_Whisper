@@ -15,3 +15,5 @@
 | [01:44.000 --> 01:46.000] | Oh, yeah.                                                              | Oh, yeah.                                                                               | Correct                  |                                                                                                 |
 | [01:50.000 --> 01:53.000] | Erm, yeah.                                                             | Erm, yeah.                                                                              | Correct                  |                                                                                                 |
 | [01:56.000 --> 02:18.000] | Erm, erm, friends, erm, erm, a puter, yeah, erm, yeah, amazing, yeah, yeah. | Erm, friends, erm, a pewter, yeah, erm, yeah, amazing.                                 | Substitution + Insertion | "Pewter"/"puter" = distorted "computer"; Whisper added filler repetitions                       |
+
+**Conclusion:** Whisper preserves the meaning, but turns some unclear sentences into plausible but incorrect ones. 

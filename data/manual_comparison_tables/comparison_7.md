@@ -10,3 +10,5 @@
 | [01:33.000 --> 01:35.000] | Yeah                                                                                     | Yeah.                                                                                       | Correct                |                                                                                           |
 | [01:46.000 --> 01:50.000] | No. One word. Little words                                                               | I don't know. One word. Little words.                                                      | Substitution           | Whisper added “I don’t know,” which changes meaning.                                     |
 | [01:52.000 --> 01:54.000] | Yeah                                                                                     | Yeah.                                                                                       | Correct                |                                                                                           |
+
+**Conclusion:** Whisper performs well with this sample. There are some minor errors like filler removal and repetition skipping.

@@ -22,3 +22,5 @@
 | [01:24.000 --> 01:26.000] | Is amazi... uh is uh               | It's amazing.              | Fluency Smoothing             | Whisper cleaned disfluency                                           |
 | [01:30.000 --> 01:32.000] | Is uh is alright                   | It's alright.              | Fluency Smoothing             | Disfluency removed                                                   |
 | [01:36.000 --> 01:38.000] | Yeah                                | Yeah.                      | Correct                       |                                                                       |
+
+**Conclusion:** the main errors are removing fillers, omissions and fluency smoothing. The core message was preserved, but disfluency patterns were not represented.

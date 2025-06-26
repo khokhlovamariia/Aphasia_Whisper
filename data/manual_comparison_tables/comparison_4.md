@@ -16,3 +16,5 @@
 | [01:13.800 --> 01:18.800] | Um happiness always          | I love happiness always.         | Insertion                  | Whisper added “I love,” missing “Um.”                                |
 | [01:20.800 --> 01:21.800] | So                           | So                               | Correct                    | Exact match.                                                          |
 | [01:23.800 --> 01:27.800] | Carly I love you             | Nicole, I love you first..       | Substitution + Insertion   | Wrong name (“Carly” → “Nicole”) and added “first.”                   |
+
+**Conclusion:** Again, as in other severe cases, Whisper hallucinates a lot, when dealing with inaudible phrases, and tries to guess it. However, in one part, Whisper "heard" something, I couldn't during manual transcription, and I had to listen this fragment again to make sure Whisper was correct. The fragment was very unclear, but Whisper managed to understand it. So, Whisper's tendency to "guess" the meaning can be helpful in some cases.

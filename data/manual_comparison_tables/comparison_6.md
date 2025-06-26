@@ -26,3 +26,5 @@
 | [01:17.600 --> 01:18.600] | One                           | One.                           | Correct                |                                                                       |
 | [01:24.160 --> 01:25.160] | Yeah                          | Yeah.                          | Correct                |                                                                       |
 | [01:27.520 --> 01:29.000] | Yeah, thank you.              | Yeah, thank you.               | Correct                |                                                                       |
+
+**Conclusion:** in this case, Whisper performs very well. It drops a filler ones and make some substitutions due to pronunciation, but overall, this sample is almost accurately transcribed.

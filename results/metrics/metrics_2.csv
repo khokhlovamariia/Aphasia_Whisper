@@ -1,0 +1,11 @@
+Metric,Raw,Cleaned,No Fillers
+Semantic Similarity,0.28,0.322,0.325
+Word Error Rate (WER),1.0,0.744,0.75
+Levenshtein Match Ratio,0.074,0.104,0.106
+Match Error Rate (MER),1.0,0.727,0.714
+Content Word Accuracy,0.167,0.2,0.2
+Content Word Precision,0.2,0.125,0.125
+Content Word Recall,0.167,0.2,0.2
+BERTScore Precision,0.215,0.232,0.262
+BERTScore Recall,-0.06,0.129,0.182
+BERTScore F1,0.075,0.182,0.223

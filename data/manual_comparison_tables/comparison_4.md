@@ -1,0 +1,18 @@
+# Comparison Table – Video 4
+| Timestamp                  | Manual transcription         | Whisper transcription           | Correct/Error type         | Notes                                                                 |
+|---------------------------|------------------------------|----------------------------------|----------------------------|-----------------------------------------------------------------------|
+| [00:00.000 --> 00:09.280] | Um.                          | Um.                              | Correct                    |                                                                       |
+| [00:09.280 --> 00:17.800] | Carly and Rob                | Karlie, um, what?                | Substitution + Hallucination | Karlie and Carly sound similar; “Rob” missed, and "what" hallucinated. |
+| [00:17.800 --> 00:19.800] |                              | I'm really sorry.                | Hallucination              | Whisper added sentence not present in manual.                        |
+| [00:19.800 --> 00:21.800] | I'm really um                | I'm really sorry.                | Hallucination              | “um” replaced by “sorry” – meaning shifted.                          |
+| [00:21.800 --> 00:23.800] |                              | Thank you.                       | Hallucination              | Whisper inserted phrase not in manual.                               |
+| [00:23.800 --> 00:25.800] | Mm                           | Mm-hmm.                          | Correct                    | Acceptable variation                                                  |
+| [00:29.800 --> 00:31.800] | Thank you                    | Thank you.                       | Correct                    |                                                                       |
+| [00:33.800 --> 00:35.800] |                              | Thank you.                       | Hallucination              | Whisper heard it, manual transcript is empty.                        |
+| [00:35.800 --> 00:37.800] | Um                           | Um...                            | Correct                    |                                                                       |
+| [00:37.800 --> 00:39.800] |                              | I don't...                       | Hallucination              | Whisper invented content not in manual.                              |
+| [00:39.800 --> 00:41.800] | I                            | I don't...                       | Insertion                  | Only “I” overlaps; “don’t…” is added.                                |
+| [00:41.800 --> 00:43.800] | Who missed all one Rob       | I just feel that's all I am.     | Hallucination              | Entirely different; Whisper substituted meaning.                     |
+| [01:13.800 --> 01:18.800] | Um happiness always          | I love happiness always.         | Insertion                  | Whisper added “I love,” missing “Um.”                                |
+| [01:20.800 --> 01:21.800] | So                           | So                               | Correct                    | Exact match.                                                          |
+| [01:23.800 --> 01:27.800] | Carly I love you             | Nicole, I love you first..       | Substitution + Insertion   | Wrong name (“Carly” → “Nicole”) and added “first.”                   |

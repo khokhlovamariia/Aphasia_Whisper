@@ -1,5 +1,18 @@
 #  Evaluating Whisper on Broca's Aphasic Speech
+
+---
+
+*Author: Mariia Khokhlova*
+
+*University of Vienna, 2025*
+
+---
+
 This project investigates the accuracy of OpenAI's Whisper speech-to-text model on YouTube videos of patients with Broca's aphasia. It compares Whisper-generated transcriptions with manually created ones using both subjective evaluation and objective metrics.
+
+![](data/pics/header.png)
+
+---
 
 ## Project Goals
 - Collect openly available video/audio records of aphasic speech
@@ -211,8 +224,53 @@ So it will be very high, even though the meaning is correct.
 | **Content Word Accuracy** | 0.875                | 0.200              |
 | **BERTScore F1**          | 0.752                | 0.223              |
 
-In severe aphasia, errors are not just about disfluency.
+## 5. Results
+Additional visualizations are plotted in the notebook [visual_analysis.ipynb](notebooks/visual_analysis.ipynb).
+### 5.1 Overall performance
+![](results/vis/performance_metrics_heatmap.png)
+![](results/vis/errors_heatmap.png)
 
-Removing fillers barely improves metrics, which means that the core message is misinterpreted, not just cluttered.
+Insights:
+* Preprocessing significantly affects Whisper's performance.
+* Whisper performs well on mild to moderate aphasia, but struggles with severe cases.
+* Semantic and content word metrics are high, while surface level metrics are low. It suggests that Whisper can capture the meaning and intent of the message, but struggles with the exact word-by-word (or character-by-character) transcription.
+### 5.2 Simulated vs. Real Aphasic Speech
+![](results/vis/synthetic_bar.png)
+Insights:
+* Simulated aphasic speech results in consistently higher performance of Whisper. It means that it doesn't capture unpredictability of real aphasic speech and therefore can not be a substitution of real data.
 
-Semantic metrics like BERTScore Recall and Content Word Precision remain very low, suggesting hallucinations or misalignment in generated text.
+### 5.3 Medium vs Large Model Size
+![](results/vis/large_2_Raw.png)
+![](results/vis/large_2_Cleaned.png)
+![](results/vis/large_2_No Fillers.png)
+
+Insights:
+* For mild and moderate aphasia using medium model is sufficient.
+* To improve the performance on severe cases, utilizing large model might be helpful.
+
+### 5.4 Implications
+* Since Whisper is good in smoothing the speech and making it clearer, it can be used as a communication aid.
+* For clinical purposes, for example for exact transcription of speech therapy sessions in order to track the progress of a patient, Whisper has to be fine-tuned.
+
+---
+
+## Repository structure
+- aphasia_whisper/
+  - data/ 
+    - audio/ - WAV files (16kHz, mono)
+    - manual_comparison_tables/ - Error analysis tables
+      - manual_transcriptions/ - Manual transcripts
+      - pics/ - Pictures used in documentation
+      - selected_videos/ - Info about selected videos
+        - selected_videos.md - Metadata of selected videos
+          - video_urls.txt - YouTube URLs
+  - notebooks/
+    - manual_vs_whisper.ipynb - Metric evaluation
+    - visual_analysis.ipynb  - Plot generation
+    - whisper_transcription.ipynb - ASR processing
+    - diarization_experiments.ipynb - Trying PyAnnote to isolate patients' speech
+  - results/
+    - metrics/ - CSV tables
+    - vis/ - Publication-ready figures
+  - README.md - Project documentation
+

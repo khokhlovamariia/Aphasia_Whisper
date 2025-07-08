@@ -242,7 +242,7 @@ Insights:
 ### 5.3 Medium vs Large Model Size
 ![](results/vis/large_2_Raw.png)
 ![](results/vis/large_2_Cleaned.png)
-![](results/vis/large_2_No Fillers.png)
+![](results/vis/large_2_No_Fillers.png)
 
 Insights:
 * For mild and moderate aphasia using medium model is sufficient.
